@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.collapse {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 15px;
+  border: 1px dashed #5c5c5c;
+}
+
+.collapse-top {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: none;
+  transition: height 0.2s;
+}
+
+.collapse-bottom {
+  width: 100%;
+  height: auto;
+  padding: 7px;
+}
+
+.collapse-text {
+  font-size: 16px;
+  font-weight: 350;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.collapse-button {
+  border: none;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 350;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.collapse-active {
+  display: block;
+}

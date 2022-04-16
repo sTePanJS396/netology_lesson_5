@@ -1,0 +1,75 @@
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.news, .news-tit, 
+.news-elem > div > ul, 
+.currency > ul, 
+.servis-list > ul, 
+.search-block,
+.advertising, .information, .information > div  {
+  border: 2px solid red;
+}
+
+.news-elem > div > ul > li, 
+.currency > ul > li, 
+.news-title > ul > li, 
+.servis-list > ul > li, 
+.search-block > div > div,
+.search-block > div > input,
+.search-block > div > button,
+.search-block > .search-tit,
+.information > div > ul, 
+.information > div > h5,
+.information > div > ul > li {
+  border: 2px solid green;
+}
+
+.news-title > ul, 
+.currency > ul, 
+.servis-list > ul, 
+.search-block > div{
+  display: flex;
+  align-items: center;
+}
+
+.list-el {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+.search-block > div > input {
+  margin-left: 10px;
+  width: 700px;
+  height: 30px;
+}
+
+.search-block > div > button {
+  margin-left: 10px;
+  width: 150px;
+  height: 30px;
+}
+
+.advertising {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.information {
+  margin-top: 30px;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+}
+
+.weather {
+  margin-left: 30px;
+  width: 200px;
+}
